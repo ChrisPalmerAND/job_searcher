@@ -1,6 +1,5 @@
 import bs4 as bs
 import urllib.request
-import urllib.request
 
 def scrape_jobs(current_url):
     source = urllib.request.urlopen(current_url).read()

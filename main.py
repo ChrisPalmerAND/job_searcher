@@ -1,7 +1,4 @@
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.by import By
-import time
 from beautiful_soup import scrape_jobs
 from fillOutJobForms import fillOutJobForms
 from generateCSV import generateCSV
