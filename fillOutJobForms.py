@@ -3,6 +3,7 @@ from selenium.webdriver.common.by import By
 import time
 
 def fillOutJobForms(driver, keyword_string, location):
+    print("Refining your search!")
     keywordsInput = driver.find_element(By.NAME, "keywords")
     keywordsInput.send_keys(keyword_string)
     locationInput = driver.find_element(By.NAME, "location")

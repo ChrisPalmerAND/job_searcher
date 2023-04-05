@@ -2,6 +2,7 @@ import bs4 as bs
 import urllib.request
 
 def scrape_jobs(current_url):
+    print("Recording jobs...")
     source = urllib.request.urlopen(current_url).read()
     soup = bs.BeautifulSoup(source,'lxml')
 
